@@ -80,7 +80,7 @@ header img {
 
 .header--title-container .header--button {
     position: absolute;
-    left: calc(43% - 120px);
+    left: calc(50% - 120px);
     top: 390px;
     display: block;
     margin-top: 35px;
