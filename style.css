@@ -340,17 +340,17 @@ main {
   
   position: relative;
 
-  color: var(--grey);
+  color: var(--just-white);
   background-color: var(--warm-black);
 }
 
 .product-detail__batata-logo {
-  width: 38px;
-  height: 27px;
+  width: 60px;
+  height: 40px;
 
   position: absolute;
-  top: -13.5px;
-  left: calc(50% - 19px);
+  top: -17px;
+  left: calc(50% - 30px);
 
   background-image: url("./assets/icons/batata.svg");
   background-size: contain;
@@ -370,7 +370,7 @@ main {
 .product-detail__title h2 {
   margin-bottom: 24px;
 
-  font-size: 2.4rem;
+  font-size: 1.8rem;
   font-weight: 700;
   line-height: 2.6rem;
   color: var(--white);
@@ -382,6 +382,7 @@ main {
   font-size: 1.4rem;
   font-weight: 500;
   line-height: 1.8rem;
+  color: #808080;
 }
 
 .product-cards__container {
@@ -410,17 +411,17 @@ main {
 .product__card-title {
   margin-bottom: 10px;
   
-  font-size: 1.8rem;
+  font-size: 1.4rem;
   font-weight: 700;
   line-height: 1.8rem;
-  color: var(--white);
+  color: var(--off-white);
 }
 
 .product__card-body {
-  font-size: 1.4rem;
+  font-size: 1rem;
   font-weight: 500;
-  line-height: 1.8rem;
-  color: var(--gray)
+  line-height: 1.3rem;
+  color: var(--grey)
 }
 
 .product-detail__card .icon-card {
@@ -458,5 +459,233 @@ main {
   font-size: 2.4rem;
   font-weight: 700;
   line-height: 2.6rem;
-  color: var(--white);
+  color: var(--just-white);
+}
+
+.main-plans-container {
+  padding-bottom: 32px;
+  position: relative;
+  background-color: var(--off-white);
+}
+
+.plans__title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  padding: 64px 16px 28px 16px;
+  text-align: center;
+}
+
+.plans__title h2 {
+  font-size: 2.4rem;
+  font-weight: 700;
+  line-height: 2.6rem;
+  color: var(--warm-black);
+}
+
+.plans__title p {
+  margin-top: 24px;
+  font-size: 1.1rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--warm-gray);
+}
+
+.plans-container__slider {
+  width: 100%;
+  height: 400px;
+
+  padding-top: 18px;
+
+  display: flex;
+  overflow-x: scroll;
+  overscroll-behavior: contain;
+  scroll-snap-type: x proximity;
+}
+
+.plans-container__card {
+  width: 190px;
+  min-width: 230px;
+  max-width: 300px;
+  height: 280px;
+  margin: 0 50px 20px;
+  padding: 0 15px;
+  
+  position: relative;
+  scroll-snap-align: center;
+
+  text-align: center;
+  background-color: var(--just-white);
+  border-radius: 15px;
+  box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+}
+
+.plans-container__card  .recommended-tag {
+  width: 120px;
+  height: 35px;
+  padding-top: 6px;
+
+  position: absolute;
+  top: -15px;
+  left: calc(50% - 60px);
+
+  font-size: 1rem;
+  font-weight: 700;
+  color: var(--just-white);
+  background-color: var(--bitcoin-orange);
+  border-radius: 8px;
+}
+
+.plan-card .plan-card__title {
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--black);
+  padding-top: 30px;
+}
+
+.plan-card .plan-card__price {
+  margin: 5px 0 0px;
+  font-family: var(--font-inter);
+  font-size: 5rem;
+  font-weight: 700;
+  color: var(--gray);
+  line-height: 6.3rem;
+  letter-spacing: -0.4rem;
+}
+
+.plan-card__price span {
+  margin: 8px 0;
+
+  position: relative;
+  top: -35px;
+
+  font-size: 1.2rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  letter-spacing: normal;
+}
+
+.plan-card .recommended-price {
+  color: var(--black);
+}
+
+.plan-card .plan-card__body {
+  margin-bottom: 16px;
+  
+  font-family: var(--font-inter);
+  font-size: 1rem;
+  font-weight: 500;
+  line-height: 1.4rem;
+  color: var(--warm-gray);
+}
+
+.plan-card .plan-card__button {
+	width: 150px;
+  height: 48px;
+
+  padding: 0 16px;
+  
+  font: var(--font-dm-sans);
+  font-size: 1rem;
+  font-weight: 700;
+  line-height: 1rem;
+
+	color: var(--gray);
+  background-color: var(--off-white);
+  
+  border: 2px solid var(--bitcoin-orange);
+  border-radius: 4px;
+
+	outline: inherit;
+	cursor: pointer;
+}
+
+.plan-card .recommended-button {
+  color: var(--warm-black);
+  border-color: var(--orange);
+}
+
+.plan-card__button span {
+  width: 19px;
+  height: 19px;
+  
+  float: right;
+  
+  background-image: url("./assets/icons/orange-right-arrow.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.plan-card__button .recommended-arrow {
+  background-image: url("./assets/icons/orange-right-arrow.svg");
+}
+
+.plans-container__slider .right-arrow-gray, .left-arrow-gray {
+  width: 14px;
+  height: 14px;
+
+  position: absolute;
+  top: calc(50% - -62px);
+  right: 31px;
+
+  background-image: url("./assets/icons/right-arrow.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.plans-container__slider .left-arrow-gray {
+  transform: rotate(180deg);
+  right: 0;
+  left: 31px;
+}
+/*
+.monthly {
+  margin-left: var(--margin-center-plan);
+  margin-right: calc(var(--margin-center-plan) / 5);
+}
+
+.always {
+  margin-left: calc(var(--margin-center-plan) / 5);
+  margin-right: var(--margin-center-plan);
+  
+} Algunos ajustus para evaluar performace*/
+
+footer {
+  width: 100%;
+  padding: 40px 4px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: var(--bitcoin-orange);
+}
+
+footer section {
+  display: flex;
+  width: 50%;
+  justify-content: center;
+  align-items: center;
+}
+.footer__social-container .social {
+  list-style: none;
+}
+
+.social li {
+  margin-bottom: 8px;
+
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+}
+
+.social a {
+  color: var(--just-white);
+  text-decoration: none;
+}
+
+.footer__logo img {
+  width: 64px;
 }
