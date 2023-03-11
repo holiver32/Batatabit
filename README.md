@@ -1,7 +1,10 @@
-# https://camo.githubusercontent.com/0a6615b3b32c78a474346837185f89fd3ba57df64acbdf1c3bef1a0076e56be1/68747470733a2f2f676973742e6769746861636b2e636f6d2f4361626f734d616e75656c2f63333034353263303030386463623165303231316438313961333933633339392f7261772f363438393130343066393166366336313638313239316364356565326162623863643966396563352f6c6f676f2e737667
+![](https://gist.githack.com/CabosManuel/c30452c0008dcb1e0211d819a393c399/raw/64891040f91f6c61681291cd5ee2abb8cd9f9ec5/logo.svg)
+---
+
+<h2>Batatabit website project</h2>
 <a href='https://emojitool.com/triangular-flag-on-post'>🚩</a>
 Landing Pages practices of the Responsive Design for mobile, tablet and desktop website. 
-Part of the Platzi course. U+1F49A
+Part of the course Platzi.
 <a href='https://emojitool.com/green-heart'>💚</a>
 
 <img style="display: block;-webkit-user-select: none;margin: auto;background-color: hsl(0, 0%, 90%);" 
@@ -9,4 +12,7 @@ src="https://camo.githubusercontent.com/7f800c545cb2febc331d6cb7a8c46589ec16ebd1
 
 Notes:
 - **Only HTML and CSS**
-- **Responsive, mobile-first and media queries.**
+- **Responsive Design, mobile-first and media queries.**
+- **Lighthouse evaluation of performance, accessibility, best practices, SEO and progressive web application between 95-100%.** 
+- **Figma handling to obtain a prototype.** 
+- **Personal adjustments and with the Platzi community of programmers.** 
