@@ -95,15 +95,15 @@ header img {
     padding: 10px;
     width: 240px;
     height: 40px;
-    background-color: var(--off-white);
+    background-color: var(--black);
     /*Sombra*/
-    box-shadow: 0px 4px 8px rgba(89, 73, 30, 0.16);
+    box-shadow: 0px 4px 0px 0px #f7931a;
     border: none;
-    border-radius: 5px;
+    border-radius: 68px;
     font-size: 1.1rem;
     font-weight: bold;
     text-decoration: none;
-    color: var(--black);
+    color: var(--just-white);
 }
 
 .header__button span {
@@ -111,7 +111,7 @@ header img {
     width: 13px;
     height: 8px;
     margin-left: 10px;
-    background-image: url("./assets/icons/down-arrow.svg");
+    background-image: url("https://gist.githack.com/CabosManuel/e85ff4f45b2a9a8c6ce7decb14b2ae84/raw/9768cf9d9734ef34a7125d0c2c9b6d38934609c7/down-arrow.svg");
 }
 
 main {
@@ -141,7 +141,7 @@ main {
     height: 200px;
     margin: 0 auto;
     margin-bottom: 50px;
-    background-image: url("./assets/imgs/Bitcoin.svg");
+    background-image: url("https://gist.githack.com/CabosManuel/a41b3dab2c254fc174e2fd43e1427a36/raw/914acbe390170988cbc810bf63057774db954741/bitcoin.svg");
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -250,10 +250,10 @@ main {
 }
 
 .currency-table__container .down {
-  background-image: url("./assets/icons/trending-down.svg");
+  background-image: url("https://gist.githack.com/CabosManuel/ec98a02c09fe2f8aa1050e02c4958bb5/raw/478ce8d39be46f110fce1387e4bde1b4262a9d65/trending-down.svg");
 }
 .currency-table__container .up {
-  background-image: url("./assets/icons/trending-up.svg");
+  background-image: url("https://gist.githack.com/CabosManuel/2350e1844f8699ddfc35744f0cb48513/raw/7cac2b70e223e904277aeefe47eefb426d79ce15/trending-up.svg");
 }
 
 .currency-table__date, .commission-table__date {
@@ -318,7 +318,7 @@ main {
   margin: calc(calc(237.5px/2) - 12px) 0;
   right: 31px;
 
-  background-image: url("./assets/icons/right-arrow.svg");
+  background-image: url("https://gist.githack.com/CabosManuel/7a56bc251eafbbcbac0a78a106a2630d/raw/b8fe714481549af687447ad811847c3f1d3a2db1/right-arrow.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -352,7 +352,7 @@ main {
   top: -17px;
   left: calc(50% - 30px);
 
-  background-image: url("./assets/icons/batata.svg");
+  background-image: url("https://gist.githack.com/CabosManuel/6c12d060cc2a8b6424d1763897121da0/raw/9fcdd25caf44ebd65d9bb6adadb9576018b07f03/batata.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -435,10 +435,10 @@ main {
   background-repeat: no-repeat;
 }
 
-.clock { background-image: url("./assets/icons/clock.svg"); }
-.eye { background-image: url("./assets/icons/eye.svg"); }
-.dollar { background-image: url("./assets/icons/dollar-sign.svg"); }
-.check { background-image: url("./assets/icons/check-circle.svg"); }
+.clock { background-image: url("https://gist.githack.com/CabosManuel/6bc69345ec5970503fce82e17725cc7a/raw/0eae9085d44ca9547c8d2c76bafa2461a04de58f/clock.svg"); }
+.eye { background-image: url("https://gist.githack.com/CabosManuel/d9dbbe6d6dda95a3382000949be85fcc/raw/a9de9bb9834823fc0c39c215b939ca64072d34c0/eye.svg"); }
+.dollar { background-image: url("https://gist.githack.com/CabosManuel/272f1e59fe68c2f04d14f8bdf7954e1b/raw/079416f521c4639a3fd76929e199dc084189c7b1/dollar-sign.svg"); }
+.check { background-image: url("https://gist.githack.com/CabosManuel/98e530278767eb38ce2ad5ded87b38d4/raw/80279194bdd2fe04c0870a2701e8855a223b6f29/check-circle.svg"); }
 
 .bitcoin-img-container {
   width: 100%;
@@ -454,7 +454,7 @@ main {
 }
 
 .bitcoin-img-container h2 {
-  padding-top: 64px;
+  padding-top: 15px;
   
   font-size: 2.4rem;
   font-weight: 700;
@@ -494,7 +494,7 @@ main {
 
 .plans-container__slider {
   width: 100%;
-  height: 400px;
+  height: 300px;
 
   padding-top: 18px;
 
@@ -613,14 +613,14 @@ main {
   
   float: right;
   
-  background-image: url("./assets/icons/orange-right-arrow.svg");
+  background-image: url("https://gist.githack.com/CabosManuel/91f26bab7bf31d24b55d812ef2582f00/raw/a655dc67a0192dc75f88baa4ae5d908f0affcb26/orange-right-arrow.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .plan-card__button .recommended-arrow {
-  background-image: url("./assets/icons/orange-right-arrow.svg");
+  background-image: url("https://gist.githack.com/CabosManuel/91f26bab7bf31d24b55d812ef2582f00/raw/a655dc67a0192dc75f88baa4ae5d908f0affcb26/orange-right-arrow.svg");
 }
 
 .plans-container__slider .right-arrow-gray, .left-arrow-gray {
@@ -628,10 +628,10 @@ main {
   height: 14px;
 
   position: absolute;
-  top: calc(50% - -62px);
+  top: calc(50% - -130px);
   right: 31px;
 
-  background-image: url("./assets/icons/right-arrow.svg");
+  background-image: url("https://gist.githack.com/CabosManuel/7a56bc251eafbbcbac0a78a106a2630d/raw/b8fe714481549af687447ad811847c3f1d3a2db1/right-arrow.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
@@ -664,7 +664,7 @@ footer {
 }
 
 footer section {
-  display: flex;
+  display: contents;
   width: 50%;
   justify-content: center;
   align-items: center;
@@ -688,4 +688,5 @@ footer section {
 
 .footer__logo img {
   width: 64px;
+  
 }
